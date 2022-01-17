@@ -1,4 +1,3 @@
-
 export function App() {
-    return <h1> Meu nome é Leonardo  </h1>
+    return <h1> Hello </h1>
 }
