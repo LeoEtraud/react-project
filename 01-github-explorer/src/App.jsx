@@ -1,3 +1,14 @@
+import { Counter } from './components/Counter';
+import { RepositoryList } from './components/repositoryList';
+
+import './styles/global.scss';
+
 export function App() {
-    return <h1> Hello </h1>
+
+    return (
+        <div>
+        <RepositoryList />
+        <Counter />        
+        </div>
+    )
 }
